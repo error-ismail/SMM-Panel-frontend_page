@@ -1,6 +1,6 @@
 # SMM Panel — Landing Page
 
-A responsive landing/login page for a Social Media Marketing (SMM) panel —
+A responsive landing/login page for a Social Media Marketing (SMM) panel 
 built to practice component-driven layout work, responsive design, and
 lightweight, performance-conscious UI animation in React.
 
@@ -9,7 +9,7 @@ lightweight, performance-conscious UI animation in React.
 The page is a single-scroll marketing site: a hero section with a working
 sign-in form UI, a horizontally scrollable pricing carousel, an about
 section, a tabbed services showcase, a 4-step process breakdown, and a
-footer — each section revealing itself as you scroll.
+footer each section revealing itself as you scroll.
 
 ## Sections
 
@@ -30,7 +30,7 @@ footer — each section revealing itself as you scroll.
 - [Tailwind CSS v4](https://tailwindcss.com/)
 - [lucide-react](https://lucide.dev/) for icons
 
-No animation or carousel library is used — scroll reveals, hover states,
+No animation or carousel library is used scroll reveals, hover states,
 and the pricing carousel are all built with plain CSS transitions/keyframes
 and a small `IntersectionObserver`-based `Reveal` component, to keep the
 bundle light. All animations respect `prefers-reduced-motion`.
